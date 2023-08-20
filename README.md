@@ -1,4 +1,4 @@
-![NLP-preprocess-transform](https://socialify.git.ci/salmanjt/NLP-preprocess-transform/image?font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light)
+![NLP-preprocess-transform](https://socialify.git.ci/salmanjt/NLP-preprocess-transform/image?font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Light)
 
 ## Project Description
 

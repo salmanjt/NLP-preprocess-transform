@@ -5,16 +5,18 @@
 The primary objective is to preprocess a dataset of published papers and convert their textual content into numerical representations that are suitable for various Natural Language Processing (NLP) applications. NLP involves the interaction between computers and human language, enabling machines to understand, interpret, and generate human language text. Preprocessing and transforming raw textual data into numerical forms is a crucial step in preparing data for meaningful analysis and modeling in the NLP domain.
 
 ## Project Tree
+
 ```
 📦 NLP-preprocess-transform
-├─ LICENSE
-├─ README.md
-├─ data
-│  ├─ input
-│  │  ├─ papers.pdf
-│  │  ├─ pdf_files
-│  │  │  ├─ PP3206.pdf
-│  │  │  ├─ PP3234.pdf
+LICENSE
+README.md
+data
+input
+papers.pdf
+pdf_files
+PP3206.pdf
+PP3234.pdf
+PP3326.pdf
 │  │  │  ├─ ...
 │  │  │  └─ ...
 │  │  └─ stopwords_en.txt
@@ -26,6 +28,8 @@ The primary objective is to preprocess a dataset of published papers and convert
 │     ├─ sample_count_vectors.txt
 │     ├─ sample_stats.csv
 │     └─ sample_vocab.txt
+├─ images
+│  └─ NLP-preprocess-transform.png
 └─ notebooks
    └─ 01-preprocess-transform.ipynb
 ```

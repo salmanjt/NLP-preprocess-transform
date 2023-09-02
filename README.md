@@ -1,8 +1,34 @@
-![NLP-preprocess-transform](https://socialify.git.ci/salmanjt/NLP-preprocess-transform/image?language=1&name=1&owner=1&theme=Light) 
+![NLP-preprocess-transform](images/NLP-preprocess-transform.svg) 
 
 ## Project Description
 
 The primary objective is to preprocess a dataset of published papers and convert their textual content into numerical representations that are suitable for various Natural Language Processing (NLP) applications. NLP involves the interaction between computers and human language, enabling machines to understand, interpret, and generate human language text. Preprocessing and transforming raw textual data into numerical forms is a crucial step in preparing data for meaningful analysis and modeling in the NLP domain.
+
+## Project Tree
+```
+📦 NLP-preprocess-transform
+├─ LICENSE
+├─ README.md
+├─ data
+│  ├─ input
+│  │  ├─ papers.pdf
+│  │  ├─ pdf_files
+│  │  │  ├─ PP3206.pdf
+│  │  │  ├─ PP3234.pdf
+│  │  │  ├─ ...
+│  │  │  └─ ...
+│  │  └─ stopwords_en.txt
+│  ├─ output
+│  │  ├─ count_vectors.txt
+│  │  ├─ summary_stats.csv
+│  │  └─ vocab.txt
+│  └─ sample
+│     ├─ sample_count_vectors.txt
+│     ├─ sample_stats.csv
+│     └─ sample_vocab.txt
+└─ notebooks
+   └─ 01-preprocess-transform.ipynb
+```
 
 ## Technologies Used
 
@@ -28,3 +54,8 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/NLP-preprocess-transform/blob/main/LICENSE) file for details.
+
+## Credits
+
+[Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
+

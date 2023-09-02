@@ -1,4 +1,4 @@
-![NLP-preprocess-transform](images/NLP-preprocess-transform.svg) 
+![NLP-preprocess-transform](images/NLP-preprocess-transform.png) 
 
 ## Project Description
 

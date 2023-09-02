@@ -8,15 +8,14 @@ The primary objective is to preprocess a dataset of published papers and convert
 
 ```
 📦 NLP-preprocess-transform
-LICENSE
-README.md
-data
-input
-papers.pdf
-pdf_files
-PP3206.pdf
-PP3234.pdf
-PP3326.pdf
+├─ LICENSE
+├─ README.md
+├─ data
+│  ├─ input
+│  │  ├─ papers.pdf
+│  │  ├─ pdf_files
+│  │  │  ├─ PP3206.pdf
+│  │  │  ├─ PP3234.pdf
 │  │  │  ├─ ...
 │  │  │  └─ ...
 │  │  └─ stopwords_en.txt
@@ -28,8 +27,8 @@ PP3326.pdf
 │     ├─ sample_count_vectors.txt
 │     ├─ sample_stats.csv
 │     └─ sample_vocab.txt
-├─ images
-│  └─ NLP-preprocess-transform.png
+├─ images
+|  ├─ NLP-preprocess-transform.png
 └─ notebooks
    └─ 01-preprocess-transform.ipynb
 ```

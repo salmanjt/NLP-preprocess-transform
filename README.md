@@ -1,6 +1,6 @@
 ![NLP-preprocess-transform](images/NLP-preprocess-transform.png)
 
-## Natural Language Processing (NLP) and Feature Transformation
+# Natural Language Processing (NLP) and Feature Transformation
 
 ## Project Description
 

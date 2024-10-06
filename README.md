@@ -72,4 +72,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 # Credits
 
+[Author - Salman Tahir](https://linkedin.com/in/salmanjt)  
 [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)

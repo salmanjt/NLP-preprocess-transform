@@ -1,8 +1,20 @@
-![NLP-preprocess-transform](images/NLP-preprocess-transform.png) 
+![NLP-preprocess-transform](images/NLP-preprocess-transform.png)
+
+## Natural Language Processing (NLP) and Feature Transformation
 
 ## Project Description
 
-The primary objective is to preprocess a dataset of published papers and convert their textual content into numerical representations that are suitable for various Natural Language Processing (NLP) applications. NLP involves the interaction between computers and human language, enabling machines to understand, interpret, and generate human language text. Preprocessing and transforming raw textual data into numerical forms is a crucial step in preparing data for meaningful analysis and modeling in the NLP domain.
+The primary objective of this project is to preprocess a dataset of published research papers and convert their textual content into numerical representations suitable for various Natural Language Processing (NLP) applications. By transforming unstructured text into structured numerical data, we facilitate advanced NLP tasks such as topic modeling, clustering and classification.
+
+The project involves several key steps:
+
+-   **Data Acquisition and Preparation:** Extracting paper IDs and URLs from an initial PDF file, downloading the research papers and aggregating their textual content.
+-   **Information Extraction:** Parsing the text to extract specific entities like titles, authors, abstracts and main content using regular expressions.
+-   **Text Preprocessing:** Performing sentence segmentation, tokenization, bigram generation, stopword removal, context-dependent stopword removal, rare token removal, short token removal and stemming.
+-   **Feature Transformation:** Creating a vocabulary index and generating sparse count vectors for each paper.
+-   **Statistical Analysis:** Identifying the top 10 most frequent terms in titles and abstracts along with the top 10 authors.
+
+Overall, this project demonstrates a practical and comprehensive approach to handling various preprocessing tasks, from tokenization and stemming to feature extraction and statistical analysis. It lays a robust foundation for future analytical endeavors in text mining and natural language processing.
 
 ## Project Tree
 
@@ -36,23 +48,25 @@ The primary objective is to preprocess a dataset of published papers and convert
 ## Technologies Used
 
 -   [Python](https://www.python.org/downloads/)
--   [Jupyter ](https://jupyter.org/)
+-   [Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+-   [Jupyter](https://jupyter.org/)
 -   [Google Drive API](https://developers.google.com/drive/api/v3/about-sdk)
 -   [NLTK (Natural Language Toolkit)](https://www.nltk.org/)
 
-## Why This Project Matters
+## Outputs
 
-Text preprocessing and feature transformation are fundamental steps in any Natural Language Processing (NLP) project. Proper preprocessing enhances the quality of data, making it more suitable for downstream NLP tasks such as sentiment analysis, topic modeling, text classification, and more. By transforming textual data into numerical representations, advanced machine learning algorithms can be applied to gain insights from unstructured text.
+The project generates several key output files (located in the `data/output` directory):
 
-Overall, this project demonstrates a practical and comprehensive approach to handling various preprocessing tasks, from tokenization and stemming to feature extraction and statistical analysis.
+-   `vocab.txt`: Contains the vocabulary index, mapping each unique token to a numerical index. This is essential for tokenization and creating numerical representations of text.
+-   `count_vectors.txt`: Stores the sparse count vectors for each paper. Each line represents a paper and contains pairs of token indices and their corresponding counts.
+-   `summary_stats.csv`: Provides a statistical summary, including the top 10 most frequent terms in titles, abstracts and the top 10 most frequent authors.
 
-## Further Improvements
+## Future Improvements
 
--   **Custom Stopword List:** The project uses a pre-defined list of stopwords. Customizing the stopwords list based on the domain or context of the text data could improve the quality of preprocessing.
--   **Advanced Tokenization:** Investigating more advanced tokenization techniques, such as word embeddings or subword tokenization (e.g., Byte-Pair Encoding), might lead to better representations of words.
--   **Advanced Stemming:** Exploring more advanced stemming algorithms beyond Porter Stemmer, such as Snowball Stemmer, could yield improved results.
--   **Visualisation:** Incorporating data visualisations can help provide insights into the distribution of words, topics, and trends within the dataset.
--   **Deep Learning:** Exploring deep learning techniques like word embeddings (Word2Vec, GloVe) or pre-trained language models (BERT, GPT-3) could yield more advanced feature representations.
+-   **Custom Stopword List:** Incorporate domain-specific stopwords to improve the quality of text preprocessing.
+-   **Advanced Tokenization:** Explore advanced tokenization techniques like subword tokenization (e.g., Byte-Pair Encoding) or word embeddings.
+-   **Visualisation:** Add data visualizations to gain insights into word distributions, topic clusters and trends within the dataset.
+-   **Deep Learning:** Implement deep learning techniques like Word2Vec, GloVe, or transformer-based models (e.g., BERT, GPT) for more advanced feature representations.
 
 ## License
 
@@ -61,4 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Credits
 
 [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
-

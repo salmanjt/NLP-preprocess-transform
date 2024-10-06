@@ -1,8 +1,6 @@
 ![NLP-preprocess-transform](images/NLP-preprocess-transform.png)
 
-# Natural Language Processing (NLP) and Feature Transformation
-
-## Project Description
+# Project Description
 
 The primary objective of this project is to preprocess a dataset of published research papers and convert their textual content into numerical representations suitable for various Natural Language Processing (NLP) applications. By transforming unstructured text into structured numerical data, we facilitate advanced NLP tasks such as topic modeling, clustering and classification.
 
@@ -16,7 +14,7 @@ The project involves several key steps:
 
 Overall, this project demonstrates a practical and comprehensive approach to handling various preprocessing tasks, from tokenization and stemming to feature extraction and statistical analysis. It lays a robust foundation for future analytical endeavors in text mining and natural language processing.
 
-## Project Tree
+# Project Tree
 
 ```
 📦 NLP-preprocess-transform
@@ -45,7 +43,7 @@ Overall, this project demonstrates a practical and comprehensive approach to han
    └─ 01-preprocess-transform.ipynb
 ```
 
-## Technologies Used
+# Technologies Used
 
 -   [Python](https://www.python.org/downloads/)
 -   [Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
@@ -53,7 +51,7 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 -   [Google Drive API](https://developers.google.com/drive/api/v3/about-sdk)
 -   [NLTK (Natural Language Toolkit)](https://www.nltk.org/)
 
-## Outputs
+# Outputs
 
 The project generates several key output files (located in the `data/output` directory):
 
@@ -61,17 +59,17 @@ The project generates several key output files (located in the `data/output` dir
 -   `count_vectors.txt`: Stores the sparse count vectors for each paper. Each line represents a paper and contains pairs of token indices and their corresponding counts.
 -   `summary_stats.csv`: Provides a statistical summary, including the top 10 most frequent terms in titles, abstracts and the top 10 most frequent authors.
 
-## Future Improvements
+# Future Improvements
 
 -   **Custom Stopword List:** Incorporate domain-specific stopwords to improve the quality of text preprocessing.
 -   **Advanced Tokenization:** Explore advanced tokenization techniques like subword tokenization (e.g., Byte-Pair Encoding) or word embeddings.
 -   **Visualisation:** Add data visualizations to gain insights into word distributions, topic clusters and trends within the dataset.
 -   **Deep Learning:** Implement deep learning techniques like Word2Vec, GloVe, or transformer-based models (e.g., BERT, GPT) for more advanced feature representations.
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/NLP-preprocess-transform/blob/main/LICENSE) file for details.
 
-## Credits
+# Credits
 
 [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)

@@ -43,13 +43,14 @@ Overall, this project demonstrates a practical and comprehensive approach to han
    └─ 01-preprocess-transform.ipynb
 ```
 
-# Technologies Used
+# Tools and Technologies
 
 -   [Python](https://www.python.org/downloads/)
--   [Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
--   [Jupyter](https://jupyter.org/)
+-   [RegEx](https://docs.python.org/3/library/re.html)
 -   [Google Drive API](https://developers.google.com/drive/api/v3/about-sdk)
 -   [NLTK (Natural Language Toolkit)](https://www.nltk.org/)
+-   [Concurrent Processing](https://docs.python.org/3/library/concurrent.futures.html)
+-   [Jupyter](https://jupyter.org/)
 
 # Outputs
 
@@ -69,8 +70,3 @@ The project generates several key output files (located in the `data/output` dir
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/NLP-preprocess-transform/blob/main/LICENSE) file for details.
-
-# Credits
-
-[Author - Salman Tahir](https://linkedin.com/in/salmanjt)  
-[Project Tree Generator](https://woochanleee.github.io/project-tree-generator)

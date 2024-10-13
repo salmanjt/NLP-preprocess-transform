@@ -27,7 +27,8 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 │  │  │  ├─ PP3206.pdf
 │  │  │  ├─ PP3234.pdf
 │  │  │  ├─ ...
-│  │  │  └─ ...
+│  │  │  ├─ PP7274.pdf
+│  │  │  └─ PP7280.pdf
 │  │  └─ stopwords_en.txt
 │  ├─ output
 │  │  ├─ count_vectors.txt
@@ -37,10 +38,12 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 │     ├─ sample_count_vectors.txt
 │     ├─ sample_stats.csv
 │     └─ sample_vocab.txt
-├─ images
-|  ├─ NLP-preprocess-transform.png
+├─ images
+│  └─ NLP-preprocess-transform.png
 └─ notebooks
-   └─ 01-preprocess-transform.ipynb
+   ├─ 01-preprocess-transform.ipynb
+   └─ exports
+      └─ 01-preprocess-transform.py
 ```
 
 # Tools and Technologies

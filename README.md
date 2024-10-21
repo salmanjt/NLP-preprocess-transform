@@ -1,25 +1,48 @@
+# NLP Preprocessing and Transformation
+
 ![NLP-preprocess-transform](images/NLP-preprocess-transform.png)
 
-# Project Description
+## Project Description
 
-The primary objective of this project is to preprocess a dataset of published research papers and convert their textual content into numerical representations suitable for various Natural Language Processing (NLP) applications. By transforming unstructured text into structured numerical data, we facilitate advanced NLP tasks such as topic modeling, clustering and classification.
+This project focuses on preprocessing a dataset of published research papers and transforming their textual content into numerical representations suitable for various Natural Language Processing (NLP) applications. The goal is to facilitate advanced NLP tasks such as topic modeling, clustering and classification by converting unstructured text into structured numerical data.
 
-The project involves several key steps:
+## Key Steps Involved
 
--   **Data Acquisition and Preparation:** Extracting paper IDs and URLs from an initial PDF file, downloading the research papers and aggregating their textual content.
--   **Information Extraction:** Parsing the text to extract specific entities like titles, authors, abstracts and main content using regular expressions.
--   **Text Preprocessing:** Performing sentence segmentation, tokenization, bigram generation, stopword removal, context-dependent stopword removal, rare token removal, short token removal and stemming.
--   **Feature Transformation:** Creating a vocabulary index and generating sparse count vectors for each paper.
--   **Statistical Analysis:** Identifying the top 10 most frequent terms in titles and abstracts along with the top 10 authors.
+### Data Acquisition and Preparation
 
-Overall, this project demonstrates a practical and comprehensive approach to handling various preprocessing tasks, from tokenization and stemming to feature extraction and statistical analysis. It lays a robust foundation for future analytical endeavors in text mining and natural language processing.
+-   **PDF Parsing:** Extracting paper IDs and URLs from an initial PDF file and downloading the full-text research papers for further processing.
+-   **Text Aggregation:** Collecting and consolidating the text from each research paper into a structured format for easier handling.
 
-# Project Tree
+### Information Extraction
+
+-   **Entity Parsing:** Extracting specific entities such as titles, authors, abstracts and the main content from the papers using regular expressions.
+-   **Text Preprocessing:** Performing essential NLP preprocessing steps such as sentence segmentation, tokenization, stopword removal (including context-specific stopwords), rare and short token removal and stemming.
+
+### Feature Transformation
+
+-   **Vocabulary Creation:** Building a vocabulary index for each unique token in the corpus.
+-   **Count Vector Generation:** Creating sparse count vectors for each paper, representing the frequency of terms.
+
+### Statistical Analysis
+
+-   **Top Terms Identification:** Performing frequency analysis to identify the top 10 most frequent terms in titles and abstracts, as well as the top 10 authors based on the dataset.
+
+Overall, this project demonstrates an effective approach to preprocessing unstructured text data and transforming it into a format that can support advanced text mining and NLP tasks.
+
+## Tools & Technologies
+
+-   Python (re, itertools, concurrent.futures)
+-   Cloud Authentication (google.oauth2)
+-   PDF Processing (pypdf, pdftotext)
+-   NLP (NLTK, PorterStemmer, RegexpTokenizer, MWETokenizer, sent_tokenize)
+
+## Project Tree
 
 ```
 📦 NLP-preprocess-transform
 ├─ LICENSE
 ├─ README.md
+├─ requirements.txt
 ├─ data
 │  ├─ input
 │  │  ├─ papers.pdf
@@ -46,30 +69,33 @@ Overall, this project demonstrates a practical and comprehensive approach to han
       └─ 01-preprocess-transform.py
 ```
 
-# Tools & Technologies
+## Installation
 
--   [Python](https://www.python.org/downloads/)
--   [RegEx](https://docs.python.org/3/library/re.html)
--   [Google Drive API](https://developers.google.com/drive/api/v3/about-sdk)
--   [NLTK (Natural Language Toolkit)](https://www.nltk.org/)
--   [Concurrent Processing](https://docs.python.org/3/library/concurrent.futures.html)
--   [Jupyter](https://jupyter.org/)
+1. Clone the repository:
 
-# Outputs
+    ```bash
+    git clone https://github.com/salmanjt/NLP-preprocess-transform.git
+    cd NLP-preprocess-transform
+    ```
 
-The project generates several key output files (located in the `data/output` directory):
+2. Install required dependencies:
 
--   `vocab.txt`: Contains the vocabulary index, mapping each unique token to a numerical index. This is essential for tokenization and creating numerical representations of text.
--   `count_vectors.txt`: Stores the sparse count vectors for each paper. Each line represents a paper and contains pairs of token indices and their corresponding counts.
--   `summary_stats.csv`: Provides a statistical summary, including the top 10 most frequent terms in titles, abstracts and the top 10 most frequent authors.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-# Future Improvements
+## Data Sources
+
+-   The initial pdf file contains links to academic research papers, stored in a private repository, which are processed using the Google Drive API. The source of the dataset was not disclosed in the project brief.
+-   A predefined list of English stopwords is used for text cleaning.
+
+## Future Improvements
 
 -   **Custom Stopword List:** Incorporate domain-specific stopwords to improve the quality of text preprocessing.
 -   **Advanced Tokenization:** Explore advanced tokenization techniques like subword tokenization (e.g., Byte-Pair Encoding) or word embeddings.
 -   **Visualisation:** Add data visualizations to gain insights into word distributions, topic clusters and trends within the dataset.
 -   **Deep Learning:** Implement deep learning techniques like Word2Vec, GloVe, or transformer-based models (e.g., BERT, GPT) for more advanced feature representations.
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/NLP-preprocess-transform/blob/main/LICENSE) file for details.

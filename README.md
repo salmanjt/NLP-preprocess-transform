@@ -1,4 +1,4 @@
-# NLP Preprocessing and Transformation
+# Natural Language Processing and Data Transformation
 
 ![NLP-preprocess-transform](images/NLP-preprocess-transform.png)
 

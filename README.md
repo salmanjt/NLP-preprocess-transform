@@ -46,7 +46,7 @@ Overall, this project demonstrates a practical and comprehensive approach to han
       └─ 01-preprocess-transform.py
 ```
 
-# Tools and Technologies
+# Tools & Technologies
 
 -   [Python](https://www.python.org/downloads/)
 -   [RegEx](https://docs.python.org/3/library/re.html)

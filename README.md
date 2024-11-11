@@ -1,7 +1,5 @@
 # Natural Language Processing and Data Transformation
 
-![NLP-preprocess-transform](images/NLP-preprocess-transform.png)
-
 ## Project Description
 
 This project focuses on preprocessing a dataset of published research papers and transforming their textual content into numerical representations suitable for various Natural Language Processing (NLP) applications. The goal is to facilitate advanced NLP tasks such as topic modeling, clustering and classification by converting unstructured text into structured numerical data.

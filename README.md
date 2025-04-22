@@ -84,14 +84,14 @@ Overall, this project demonstrates an effective approach to preprocessing unstru
 
 ## Data Sources
 
--   The initial pdf file contains links to academic research papers, stored in a private repository, which are processed using the Google Drive API. The source of the dataset was not disclosed in the project brief.
+-   The initial PDF file contains links to academic research papers, stored in a private repository, which are processed using the Google Drive API. The source of the dataset was not disclosed in the project brief.
 -   A predefined list of English stopwords is used for text cleaning.
 
 ## Future Improvements
 
 -   **Custom Stopword List:** Incorporate domain-specific stopwords to improve the quality of text preprocessing.
 -   **Advanced Tokenization:** Explore advanced tokenization techniques like subword tokenization (e.g., Byte-Pair Encoding) or word embeddings.
--   **Visualisation:** Add data visualizations to gain insights into word distributions, topic clusters and trends within the dataset.
+-   **Visualisation:** Add data visualisations to gain insights into word distributions, topic clusters and trends within the dataset.
 -   **Deep Learning:** Implement deep learning techniques like Word2Vec, GloVe, or transformer-based models (e.g., BERT, GPT) for more advanced feature representations.
 
 ## License
